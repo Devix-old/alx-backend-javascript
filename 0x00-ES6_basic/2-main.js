@@ -1,3 +1,3 @@
-import getSanFranciscoDescription from './6-string-interpolation.js';
+import concatArrays from './5-spread-operator.js';
 
-console.log(getSanFranciscoDescription());
+console.log(concatArrays(['a', 'b'], ['c', 'd'], 'Hello'));
